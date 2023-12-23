@@ -141,3 +141,63 @@ footer {
     }
 
 }
+
+//Slider
+#slider {
+    .carousel-inner {
+        background-color: #F8F7F6;
+        height: 500px;
+
+        .slider-image {
+            position: relative;
+
+            .image {
+                position: absolute;
+                display: inline-block;
+                top: 17%;
+                left: 39%;
+                width: 20%;
+
+                // .firefly {
+                //     animation-name: firefly;
+                //     animation-duration: 10s;
+                //     animation-timing-function: ease-in-out;
+                //     animation-direction: alternate;
+                //     animation-iteration-count: infinite;
+                // }
+            }
+
+            .text {
+                margin-top: 166px;
+                text-align: center;
+
+                h1 {
+                    font-size: 110px;
+                    color: #d9d3cf;
+                    word-spacing: 2.3em;
+                }
+            }
+        }
+    }
+}
+
+//Collection
+
+#collection{
+    padding: 6rem 0;
+    text-align: center;
+    .lawson-collection{
+        p{
+            line-height: 1.72em;
+            color: #9C9C9C;
+            font-size: 16px;
+            width: 59%;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 44px;
+            margin-bottom: 40px;
+        }
+    }
+}
+

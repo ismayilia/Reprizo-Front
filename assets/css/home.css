@@ -102,4 +102,44 @@ footer .footer-down {
 }
 footer .footer-down h6 {
   color: rgba(255, 255, 255, 0.199);
+}
+
+#slider .carousel-inner {
+  background-color: #F8F7F6;
+  height: 500px;
+}
+#slider .carousel-inner .slider-image {
+  position: relative;
+}
+#slider .carousel-inner .slider-image .image {
+  position: absolute;
+  display: inline-block;
+  top: 17%;
+  left: 39%;
+  width: 20%;
+}
+#slider .carousel-inner .slider-image .text {
+  margin-top: 166px;
+  text-align: center;
+}
+#slider .carousel-inner .slider-image .text h1 {
+  font-size: 110px;
+  color: #d9d3cf;
+  word-spacing: 2.3em;
+}
+
+#collection {
+  padding: 6rem 0;
+  text-align: center;
+}
+#collection .lawson-collection p {
+  line-height: 1.72em;
+  color: #9C9C9C;
+  font-size: 16px;
+  width: 59%;
+  margin: 0 auto;
+}
+#collection .lawson-collection h1 {
+  font-size: 44px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=Home.css.map */
