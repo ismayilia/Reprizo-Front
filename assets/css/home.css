@@ -142,4 +142,54 @@ footer .footer-down h6 {
 #collection .lawson-collection h1 {
   font-size: 44px;
   margin-bottom: 40px;
+}
+
+#products {
+  margin-bottom: 20px;
+}
+#products img {
+  width: 100%;
+}
+#products .product-all .product {
+  background-color: #F8F7F6;
+}
+#products .product-all .product .product-icons {
+  position: relative;
+  margin: 4px 0 0 10px;
+}
+#products .product-all .product .product-icons .fa-solid {
+  color: black;
+}
+#products .product-all .product .product-icons i {
+  margin-top: 15px;
+  font-size: 29px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+}
+#products .product-all .product .product-content {
+  text-align: center;
+  margin-top: -64px;
+  padding-bottom: 32px;
+}
+#products .product-all .product .product-content h6 {
+  font-size: 14px;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+#products .product-all .product .product-content a {
+  display: inline-block;
+  border: 3px solid rgba(45, 45, 45, 0.3568627451);
+  font-size: 14px;
+  padding: 11px 22px;
+  margin-top: 15px;
+  transition: all 0.5s;
+}
+#products .product-all .product .product-content a:hover {
+  background-color: black;
+  color: white;
+}
+#products .product-all .product .product-image {
+  margin-top: -5px;
 }/*# sourceMappingURL=Home.css.map */
