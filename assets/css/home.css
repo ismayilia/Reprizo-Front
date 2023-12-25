@@ -181,19 +181,27 @@ footer .footer-down h6 {
   background-color: #F8F7F6;
 }
 #products .product-all .product .product-icons {
+  margin-left: 10px;
   position: relative;
-  margin: 4px 0 0 10px;
+  opacity: 0;
+  transition: 0.5s;
 }
 #products .product-all .product .product-icons .fa-solid {
   color: black;
 }
+#products .product-all .product .product-icons .fa-cart-shopping {
+  margin-top: 50px;
+}
 #products .product-all .product .product-icons i {
   margin-top: 15px;
-  font-size: 29px;
+  font-size: 25px;
   position: absolute;
   top: 0px;
   left: 0px;
   cursor: pointer;
+}
+#products .product-all .product:hover .product-icons {
+  opacity: 1;
 }
 #products .product-all .product .product-content {
   text-align: center;
@@ -237,6 +245,7 @@ footer .footer-down h6 {
   padding: 11px 22px;
   margin-top: 15px;
   transition: all 0.5s;
+  text-transform: uppercase;
 }
 #swiss .swiss-all .text a:hover {
   background-color: black;
@@ -277,4 +286,4 @@ footer .footer-down h6 {
 }
 #featured .featured-all .right {
   padding: 90px 70px 47px 0;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=Home.css.map */

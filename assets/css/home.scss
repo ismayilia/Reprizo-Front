@@ -17,7 +17,7 @@ ul {
 // Header
 
 header {
-    
+
     .header-top {
         padding: 30px 0;
         align-items: center;
@@ -152,6 +152,7 @@ footer {
 //Slider
 #slider {
     margin-top: 25px;
+
     .carousel-inner {
         background-color: #F8F7F6;
         height: 500px;
@@ -217,19 +218,21 @@ footer {
 #products {
     margin-bottom: 20px;
 
-    
-    h1{
+
+    h1 {
         text-align: center;
         font-size: 44px;
         margin-bottom: 4rem;
     }
+
     img {
         width: 100%;
     }
 
-    .button{
+    .button {
         margin: 35px 0 100px;
         text-align: center;
+
         a {
             display: inline-block;
             border: 3px solid #2d2d2d5b;
@@ -248,27 +251,43 @@ footer {
 
     .product-all {
         .product {
-            
+
             background-color: #F8F7F6;
 
-            .product-icons {
-                
-                position: relative;
-                margin:4px 0 0 10px;
+            
 
-                .fa-solid{
+            .product-icons {
+                margin-left: 10px;
+                position: relative;
+                opacity: 0;
+                transition:0.5s;
+                .fa-solid {
                     color: black;
-                    
+
                 }
-                i{
+
+                .fa-cart-shopping {
+                    margin-top: 50px;
+                }
+
+                i {
+
                     margin-top: 15px;
-                    font-size: 29px;
+                    font-size: 25px;
                     position: absolute;
                     top: 0px;
                     left: 0px;
                     cursor: pointer;
                 }
             }
+
+            &:hover {
+                .product-icons {
+                    opacity: 1;
+                }
+            }
+
+
 
             .product-content {
                 text-align: center;
@@ -305,15 +324,17 @@ footer {
 
 // Swiss Essence
 
-#swiss{
+#swiss {
     margin: 6rem 0;
-    .swiss-all{
-        .text{
+
+    .swiss-all {
+        .text {
             margin-top: 3rem;
 
-            h1{
+            h1 {
                 font-size: 44px;
             }
+
             a {
                 display: inline-block;
                 border: 3px solid #2d2d2d5b;
@@ -321,13 +342,15 @@ footer {
                 padding: 11px 22px;
                 margin-top: 15px;
                 transition: all 0.5s;
+                text-transform: uppercase;
 
                 &:hover {
                     background-color: black;
                     color: white;
                 }
             }
-            p{
+
+            p {
                 line-height: 2rem;
                 margin: 25px 0;
                 font-size: 16px;
@@ -336,8 +359,8 @@ footer {
             }
         }
 
-        .image{
-            img{
+        .image {
+            img {
                 width: 100%;
             }
         }
@@ -346,36 +369,37 @@ footer {
 
 // Featured 
 
-#featured{
-    .featured-all{
+#featured {
+    .featured-all {
         background-color: #F8F7F6;
 
-        h6{
+        h6 {
             color: rgba(0, 0, 0, 0.301);
         }
 
-        h2{
+        h2 {
             font-size: 25px;
         }
 
-        p{
+        p {
             line-height: 30px;
             margin-top: 25px;
         }
 
-        .left{
+        .left {
             padding: 90px 35px 47px;
         }
 
-        .middle{
+        .middle {
             margin: -30px 0 -30px;
-            img{
+
+            img {
                 width: 100%;
-                
+
             }
         }
 
-        .right{
+        .right {
             padding: 90px 70px 47px 0;
         }
     }
