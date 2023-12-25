@@ -9,7 +9,7 @@ ul {
 }
 
 header .header-top {
-  padding: 20px 0;
+  padding: 30px 0;
   align-items: center;
 }
 header .header-top nav a {
@@ -85,9 +85,11 @@ footer .footer-top .right a {
   display: block;
   margin-bottom: 7px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 footer .footer-top .right h6 {
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 footer hr {
   border-color: #989898;
@@ -104,6 +106,9 @@ footer .footer-down h6 {
   color: rgba(255, 255, 255, 0.199);
 }
 
+#slider {
+  margin-top: 25px;
+}
 #slider .carousel-inner {
   background-color: #F8F7F6;
   height: 500px;
@@ -272,4 +277,4 @@ footer .footer-down h6 {
 }
 #featured .featured-all .right {
   padding: 90px 70px 47px 0;
-}/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=home.css.map */

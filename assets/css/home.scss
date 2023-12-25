@@ -14,9 +14,12 @@ ul {
     padding: 0px;
 }
 
+// Header
+
 header {
+    
     .header-top {
-        padding: 20px 0;
+        padding: 30px 0;
         align-items: center;
 
         nav {
@@ -45,6 +48,8 @@ header {
     }
 
 }
+
+// Footer
 
 footer {
     padding: 100px 0 35px;
@@ -114,10 +119,12 @@ footer {
                 display: block;
                 margin-bottom: 7px;
                 font-size: 14px;
+                text-transform: uppercase;
             }
 
             h6 {
                 margin-bottom: 20px;
+                text-transform: uppercase;
             }
         }
 
@@ -144,6 +151,7 @@ footer {
 
 //Slider
 #slider {
+    margin-top: 25px;
     .carousel-inner {
         background-color: #F8F7F6;
         height: 500px;
