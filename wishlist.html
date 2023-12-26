@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/wishlist.css">
+    <title>Wishlist</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <nav>
+                            <a href="home.html">Home</a>
+                            <a href="shop.html">Shop</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="about.html">About</a>
+                            <a href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="home.html"><img class="logo w-100" src="./assets/img/logo.png" alt=""></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="header-right">
+                            <a href="login.html">Login</a>
+                            <a href="register.html">Register</a>
+                            <a href="wishlist.html"><i class="fa-regular fa-heart"></i> Wishlist</a>
+                            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span>(0)</span></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Banners -->
+
+        <section id="banner">
+            <div class="banner-all" style="background-image: url(./assets/img/banner.jpg);">
+                <h1>Wishlist</h1>
+            </div>
+        </section>
+
+        <!-- Wishlist -->
+
+        <section id="wishlists">
+            <div class="container">
+                <div class="wishlist-all">
+                    <div class="empty">
+                        <h1>Your Wishlist</h1>
+                        <p>Your wishlist is currently empty.</p>
+                        <a href="shop.html">CONTINUE SHOPPING</a>
+                    </div>
+                    
+                    <div class="wishlist-table d-none">
+                        <h1>Your Wishlist</h1>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Add to Cart</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="./assets/img/product/fast1.jpg">
+                                    </td>
+                                    <td>Saat1</td>
+                                    <td>$110.00</td>
+                                    <td><i class="fa-solid fa-cart-shopping"></i></td>
+                                    <td><i class="far fa-trash-alt"></i></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="left">
+                            <p>Sign up for our newsletter to receive special offers, news and great sales notifications.
+                            </p>
+                            <form action="">
+                                <div class="email-subs">
+                                    <input type="text" placeholder="Email address">
+                                    <button>Subscribe</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="right">
+                            <div class="row">
+                                <div class="information-footer col-lg-4">
+                                    <h6>PAGES</h6>
+                                    <a href="home.html">HOME</a>
+                                    <a href="shop.html">SHOP</a>
+                                </div>
+                                <div class="account-footer col-lg-4">
+                                    <h6>ABOUT US</h6>
+                                    <a href="blog.html">BLOG</a>
+                                    <a href="about.html">ABOUT</a>
+                                    <a href="contact.html">CONTACT</a>
+
+                                </div>
+                                <div class="shop-footer col-lg-4">
+                                    <h6>SOCIALS</h6>
+                                    <a href="https://business.facebook.com/"><i
+                                            class="fa-brands fa-square-facebook"></i> FACEBOOK </a>
+                                    <a href="https://www.pinterest.com/themerex0063/"><i
+                                            class="fa-brands fa-square-pinterest"></i> PINTEREST</a>
+                                    <a href="https://www.instagram.com/themerex_net/"><i
+                                            class="fa-brands fa-square-instagram"></i> INSTAGRAM</a>
+                                    <a href="https://www.youtube.com/channel/UCnFisBimrK2aIE-hnY70kCA"><i
+                                            class="fa-brands fa-square-youtube"></i> YOUTUBE</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr>
+            <div class="col-12 footer-down">
+                <h6>Reprizo © 2023, Powered by Ismayil Afandizada</h6>
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="./assets/js/wishlist.js"></script>
+</body>
+
+</html>
