@@ -121,6 +121,9 @@ footer .footer-down h6 {
 #login {
   padding: 6rem 0;
 }
+#login .login-all input {
+  accent-color: black;
+}
 #login .login-all button {
   color: black;
   background-color: white !important;

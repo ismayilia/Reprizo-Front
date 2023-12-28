@@ -172,6 +172,10 @@ footer {
 #login{
     padding: 6rem 0;
     .login-all{
+        input{
+            accent-color: black;
+        }
+        
         button{
             color: black;
             background-color: white !important;

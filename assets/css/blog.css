@@ -177,6 +177,8 @@ footer .footer-down h6 {
 #blogs .latest-post {
   background-color: #F8F7F6;
   padding: 25px 0;
+  position: sticky;
+  top: 20px !important;
 }
 #blogs .latest-post h3 {
   text-align: center;
