@@ -12,6 +12,12 @@ header .header-top {
   padding: 30px 0;
   align-items: center;
 }
+header .header-top a {
+  transition: all 0.3s;
+}
+header .header-top a:hover {
+  color: #af7f66;
+}
 header .header-top nav a {
   margin-right: 35px;
   font-size: 18px;
@@ -25,6 +31,9 @@ header .header-top .header-right {
 header .header-top .header-right a {
   font-size: 18px;
   margin-left: 35px;
+}
+header .header-top .header-right a i {
+  color: #af7f66;
 }
 header .header-top .header-right a span {
   font-size: 15px;
