@@ -17,10 +17,16 @@ ul {
 // Header
 
 header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
 
     .header-top {
-        padding: 30px 0;
+        padding: 30px 0 0;
         align-items: center;
+
+        
 
         a{
             transition: all 0.3s;
@@ -161,7 +167,7 @@ footer {
 
 //Slider
 #slider {
-    margin-top: 25px;
+    margin-top: 70px;
 
     .carousel-inner {
         background-color: #F8F7F6;

@@ -8,8 +8,14 @@ ul {
   padding: 0px;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
 header .header-top {
-  padding: 30px 0;
+  padding: 30px 0 0;
   align-items: center;
 }
 header .header-top a {
@@ -116,7 +122,7 @@ footer .footer-down h6 {
 }
 
 #slider {
-  margin-top: 25px;
+  margin-top: 70px;
 }
 #slider .carousel-inner {
   background-color: #F8F7F6;

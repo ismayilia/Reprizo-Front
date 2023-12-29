@@ -17,9 +17,13 @@ ul {
 // Header
 
 header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
 
     .header-top {
-        padding: 30px 0;
+        padding: 30px 0 0;
         align-items: center;
 
         a{
@@ -164,7 +168,7 @@ footer {
 // Banners
 
 #banner {
-
+    padding-top: 54px;
     .banner-all {
         background-size: cover;
         background-position: center;
