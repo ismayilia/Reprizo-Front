@@ -22,6 +22,7 @@ $(function () {
     })
   });
 
+  // Wishlist icon End
 
   // FIlter
 
@@ -69,33 +70,32 @@ $(function () {
   })();
 
   //Sort
-  $(document).on("click", ".item0", function () {
-    let usdText = $(".item0").eq(0).text();
-    $(".button-dropdown").eq(0).text(usdText)
-  })
+  // $(document).on("click", ".item0", function () {
+  //   let usdText = $(".item0").eq(0).text();
+  //   $(".button-dropdown").eq(0).text(usdText)
+  // })
 
-  $(document).on("click", ".item1", function () {
-    let usdText = $(".item1").eq(0).text();
-    $(".button-dropdown").eq(0).text(usdText)
-  })
+  // $(document).on("click", ".item1", function () {
+  //   let usdText = $(".item1").eq(0).text();
+  //   $(".button-dropdown").eq(0).text(usdText)
+  // })
 
-  $(document).on("click", ".item2", function () {
-    let usdText = $(".item2").eq(0).text();
-    $(".button-dropdown").eq(0).text(usdText)
-  })
+  // $(document).on("click", ".item2", function () {
+  //   let usdText = $(".item2").eq(0).text();
+  //   $(".button-dropdown").eq(0).text(usdText)
+  // })
 
-  $(document).on("click", ".item3", function () {
-    let usdText = $(".item3").eq(0).text();
-    $(".button-dropdown").eq(0).text(usdText)
-  })
+  // $(document).on("click", ".item3", function () {
+  //   let usdText = $(".item3").eq(0).text();
+  //   $(".button-dropdown").eq(0).text(usdText)
+  // })
 
-  $(document).on("click", ".item4", function () {
-    let usdText = $(".item4").eq(0).text();
-    $(".button-dropdown").eq(0).text(usdText)
-  })
+  // $(document).on("click", ".item4", function () {
+  //   let usdText = $(".item4").eq(0).text();
+  //   $(".button-dropdown").eq(0).text(usdText)
+  // })
 
 
-  // Wishlist icon End
 })
 
 
