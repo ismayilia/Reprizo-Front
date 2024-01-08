@@ -4,7 +4,7 @@ $(function () {
   // Wishlist icon Start
   let wishWhiteIcons = document.querySelectorAll(".product .product-icons .fa-regular")
 
-  let wishBlackIcons = document.querySelectorAll(".product .product-icons .fa-solid")
+  let wishBlackIcons = document.querySelectorAll(".product .product-icons .fa-solid.fa-heart")
 
   wishWhiteIcons.forEach(wishWhiteIcon => {
     wishWhiteIcon.addEventListener("click", function () {
