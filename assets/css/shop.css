@@ -250,6 +250,10 @@ footer .footer-down h6 {
   color: black;
   border-color: rgba(0, 0, 0, 0.295);
 }
+#shops .shop-all .shop-left .product-all .pagination-area .page-item a:focus {
+  outline: none;
+  box-shadow: none;
+}
 #shops .shop-all .shop-left .product-all .pagination-area .page-item a:hover {
   background-color: black;
   color: white;
